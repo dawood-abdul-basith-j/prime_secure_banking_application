@@ -34,7 +34,7 @@ A modern, full-stack banking application built with **React** (Frontend) and **S
 
 ---
 
-## 🏃 How to Run the Project
+## How to Run the Project
 
 Follow these steps in order to start the application:
 
