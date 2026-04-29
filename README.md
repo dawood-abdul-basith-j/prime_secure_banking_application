@@ -1,6 +1,20 @@
 # Prime Secure Bank Management System
 
+> [!IMPORTANT]
+> **CRITICAL: FOR THE SYSTEM TO WORK:**
+> 1. **MySQL MUST BE RUNNING** (Start via XAMPP Control Panel).
+> 2. **SPRING BOOT BACKEND MUST BE RUNNING** (Run `BankApplication.java` in VS Code).
+> 3. **FRONTEND MUST BE RUNNING** (Run `npm run dev` in the frontend folder).
+> 
+> **TEST LOGIN CREDENTIALS:**
+> - **Email**: `user@primebank.com`
+> - **Password**: `Pass1234`
+> - **Transaction PIN**: `123456`
+
+---
+
 A modern, full-stack banking application built with **React** (Frontend) and **Spring Boot** (Backend) using **MySQL** for secure data persistence.
+
 
 ## Features
 - **Stateless Authentication**: Secure login/signup using JWT (JSON Web Tokens).
