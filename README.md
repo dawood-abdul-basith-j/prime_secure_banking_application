@@ -34,25 +34,31 @@ A modern, full-stack banking application built with **React** (Frontend) and **S
 
 ---
 
-## Setup Instructions
+## 🏃 How to Run the Project
 
-### 1. Database (MySQL)
-- Start **XAMPP** and ensure **MySQL** is running.
-- Create a database named `prime_bank_db`.
-- The application will automatically create tables on first run.
+Follow these steps in order to start the application:
 
-### 2. Backend (Spring Boot)
-- Open the `backend` folder in VS Code/IntelliJ.
-- Ensure you have the **Java Extension Pack** installed.
-- Open `src/main/java/com/primesecure/bank/BankApplication.java`.
-- Click **Run** or press **F5**.
-- Ensure the terminal says: `Tomcat started on port 8080`.
+### Step 1: Start MySQL Database
+1. Open the **XAMPP Control Panel**.
+2. Click **Start** next to **MySQL**.
+3. Ensure the background turns **Green** (Port 3306).
+4. (Optional) Open `http://localhost/phpmyadmin` and create a database named `prime_bank_db`.
 
-### 3. Frontend (React)
-- Open a terminal in the `frontend` folder.
-- Run `npm install` (only once).
-- Run `npm run dev`.
-- Open `http://localhost:5173` (or the port shown in the terminal).
+### Step 2: Start the Backend (Java/Spring Boot)
+1. Open the `backend` folder in **VS Code**.
+2. Open `src/main/java/com/primesecure/bank/BankApplication.java`.
+3. Click the **Run** button (above the `main` method) or press **F5**.
+4. Check the terminal for: `Tomcat started on port 8080 (http)`.
+
+### Step 3: Start the Frontend (React)
+1. Open a new Terminal in the `frontend` folder.
+2. Run the command: `npm run dev`
+3. Click the link provided in the terminal (usually `http://localhost:5173` or `5174`).
+
+### Step 4: Access the Website
+1. Your browser will open the Login page.
+2. Use the **Test Credentials** mentioned above to log in.
+
 
 ---
 
