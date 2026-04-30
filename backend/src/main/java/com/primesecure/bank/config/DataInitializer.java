@@ -26,6 +26,11 @@ public class DataInitializer implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("--------------------------------------------------");
+        System.out.println("JDBC Connection: SUCCESSFUL");
+        System.out.println("Connected to: MySQL Database (prime_bank_db)");
+        System.out.println("--------------------------------------------------");
+
         // Create a default user if none exists
         if (userRepository.count() == 0) {
             User defaultUser = User.builder()

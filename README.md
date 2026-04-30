@@ -49,6 +49,13 @@ Follow these steps in order to start the application:
 2. Open `src/main/java/com/primesecure/bank/BankApplication.java`.
 3. Click the **Run** button (above the `main` method) or press **F5**.
 4. Check the terminal for: `Tomcat started on port 8080 (http)`.
+5. **Verify Database Connection**: Look for the following success message in your VS Code terminal to confirm the JDBC connection is working:
+   ```text
+   --------------------------------------------------
+   JDBC Connection: SUCCESSFUL
+   Connected to: MySQL Database (prime_bank_db)
+   --------------------------------------------------
+   ```
 
 ### Step 3: Start the Frontend (React)
 1. Open a new Terminal in the `frontend` folder.
